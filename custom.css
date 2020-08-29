@@ -1,0 +1,20 @@
+.front-footer > li{
+    display: flex;
+    align-items: flex-start;
+}
+
+.Worked{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.bioo{
+    margin-right: 100px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    font-weight: 500;
+}
