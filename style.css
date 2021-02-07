@@ -150,10 +150,11 @@ body a:hover
 
 .section-title-holder
 {
-    background-color: #3895D3;
+    background-color: #8b4367;
     width: 370px;
     height: 370px;    
     z-index: 2;
+    border-radius: 10px;
 }
 
 .section-num span
@@ -171,9 +172,9 @@ body a:hover
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 109px;
+    font-size: 50px;
     width: 245px;
-    word-break: break-all;
+    /*word-break: break-all;*/
     line-height: 83px;
     margin-top: 10px;
     color: white;
@@ -185,10 +186,11 @@ body a:hover
 
 .section-content-holder
 {   
-    background: #181a1b;
+    background: #292d3e;
     width: 800px;
     padding: 60px 0;
     color: #FFFFFF;
+    border-radius: 10px;
 }
 
 .section-content-holder .content-wrapper
@@ -262,7 +264,7 @@ body a:hover
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #221c5a; 
-    background-image:url(demo-images/macbook\ pro.webp); 
+    background-image:url(demo-images/benjamin\ mac.jpg); 
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
@@ -324,17 +326,18 @@ h1.big-title
 #services
 {
     background-color: #303030;
+    background-image: url("demo-images/nubules.jpg");
     z-index: 9;
 }
 
 #services .section-title-holder
 {
-    background-color: #a62539;
+    background-color: #1d2d50;
 }
 
 #services .section-title-holder span
 {
-    color: #cb6d01;
+    color: #1e5f74;
 }
 
 .service-holder 
@@ -570,8 +573,8 @@ div.pp_default .pp_loaderIcon
 
 #about
 {
-    background-color: #303030;
-    /*background-image: url("demo-images/background_img_03.jpg");*/
+    /*background-color: #303030;*/
+    background-image: url("demo-images/arunas.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -580,12 +583,12 @@ div.pp_default .pp_loaderIcon
 
 #about .section-title-holder
 {
-    background-color: #413d65;
+    background-color: #52057b;
 }
 
 #about .section-title-holder span
 {
-    color: #45B6FE;
+    color: #bc6ff1;
 }
 
 #about .section-content-holder
@@ -645,8 +648,8 @@ div.pp_default .pp_loaderIcon
 
 #news
 {
-    background-color: #303030;
-    /*background-image: url("demo-images/background_img_04.jpg");*/
+    /*background-color: #303030;*/
+    background-image: url("demo-images/karsten.jpg");
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -654,7 +657,7 @@ div.pp_default .pp_loaderIcon
 }
 #news .section-title-holder span
 {
-    color: #45B6FE;
+    color: #ff6464;
 }
 
 .blog-item-holder
@@ -1078,7 +1081,7 @@ span.contact-form-not-valid-tip
 
 footer
 {
-    background-color: #303030;
+    background-color: #200f21;
 }
 
 .footer
